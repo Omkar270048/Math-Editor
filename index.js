@@ -66,11 +66,11 @@
     </div>
 
 
-    <div id="editor" style="border: 1px solid black; min-height: 300px;" contenteditable="true"></div>
+    <div id="editor" style="border: 1px solid black; min-height: 300px; padding:5px;"></div>
 
 
     <textarea name="textarea" id="textarea"></textarea>
-    <button id="submit">submit</button>
+    <button id="submit">Click to get code</button>
         `;
 
         mathEditor.innerHTML = system;
